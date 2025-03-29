@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+main {
+    margin-top: 40px;
+}
+main .heading {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+main .para {
+    font-size: 18px;
+    text-align: center;
+    color: rgba(0, 0,0, 0.7);
+}
+main .img {
+    position: absolute;
+    left: 4rem;
+    top: 10rem;
+    border-radius: 20px;
+    height: 24rem;
+}
+main .main {
+    height: 24rem;
+    width: 38rem;
+    position: absolute;
+    border-radius: 25px;
+    right: 4rem;
+    top:10rem;
+    box-shadow: 2px 3px 20px gray;
+}
+main .main .btns{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-evenly;
+    height: 4.50rem;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: gray;
+}
+main .main .btns button {
+    width:30rem;
+    font-size: 25px;
+    border: none;
+}
+
+main .main .para2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+main .main .heading2 {
+    color: black;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
